@@ -1,0 +1,51 @@
+{
+	"about": {
+		"title": "About me",
+		"p1": "I am a Full-Stack developer from Galicia (Spain)",
+		"p2": "I have serious passion for data, learn and improve; building excellent software that improves the lives of those around me",
+		"p3": "In love with Angular, TS and C++"
+	},
+	"social": {
+		"title": "Social"
+	},
+	"contact": {
+		"title": "Contact form",
+		"name": "Name",
+		"email": "Email",
+		"subject": "Subject",
+		"message": "Message",
+		"submit": "Send message"
+	},
+	"languages": {
+		"title": "Languages"
+	},
+	"tecnologies": {
+		"title": "Tecnologies"
+	},
+	"projects": {
+		"title": "Projects"
+	},
+	"other": {
+		"language": {
+			"moreLanguages": "Other available languages: "
+		},
+		"theme": {
+			"changeTheme": "You can change the theme!",
+			"themes": {
+				"dark": "Dark",
+				"white": "White",
+				"blue": "Blue"
+			}
+		}
+	},
+	"scrollTexts": {
+		"1": "Scroll to Home",
+		"2": "Scroll to About",
+		"3": "Scroll to Languages",
+		"4": "Scroll to Tecnologies",
+		"5": "Scroll to Projects",
+		"6": "Scroll to Social",
+		"7": "Scroll to Contact",
+		"8": "Scroll to Other"
+	}
+}
