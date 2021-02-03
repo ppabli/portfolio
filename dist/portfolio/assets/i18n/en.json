@@ -26,8 +26,8 @@
 		"title": "Projects"
 	},
 	"other": {
-		"language": {
-			"moreLanguages": "Other available languages: "
+		"locale": {
+			"moreLocales": "Other available languages: "
 		},
 		"theme": {
 			"changeTheme": "You can change the theme!",
