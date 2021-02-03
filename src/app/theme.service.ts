@@ -84,7 +84,12 @@ export class ThemeService {
 
 		document.querySelectorAll('.toggleTheme').forEach(element => {
 
-			element.classList.add('bg-white');
+			if (element.tagName != 'A') {
+
+				element.classList.add('bg-white');
+
+			}
+
 			element.classList.add('text-dark');
 			element.classList.add('arrow-dark');
 			element.classList.add('border-dark');
@@ -101,7 +106,12 @@ export class ThemeService {
 
 		document.querySelectorAll('.toggleTheme').forEach(element => {
 
-			element.classList.add('bg-dark');
+			if (element.tagName != 'A') {
+
+				element.classList.add('bg-dark');
+
+			}
+
 			element.classList.add('text-white');
 			element.classList.add('arrow-white');
 			element.classList.add('border-white');
@@ -118,7 +128,12 @@ export class ThemeService {
 
 		document.querySelectorAll('.toggleTheme').forEach(element => {
 
-			element.classList.add('bg-primary');
+			if (element.tagName != 'A') {
+
+				element.classList.add('bg-primary');
+
+			}
+
 			element.classList.add('text-white');
 			element.classList.add('arrow-white');
 			element.classList.add('border-white');

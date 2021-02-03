@@ -41,21 +41,20 @@ export class AppComponent implements AfterViewInit {
 
 		this.ignoreNewEvent = true;
 
-		let actualSectionId = Math.floor(window.pageYOffset / window.innerHeight) + 1;
+		let actualSectionId = Math.floor(window.pageYOffset / window.innerHeight);
+		let diff = window.pageYOffset - (window.innerHeight * actualSectionId);
 
-		let element = document.getElementById(String(actualSectionId + (e.deltaY / 100)));
-
-		if (element) {
-
-			element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-
-		}
+		window.scroll({
+			top: (window.pageYOffset + (window.innerHeight * (e.deltaY / 100))) - diff,
+			left: 0,
+			behavior: 'smooth'
+		});
 
 		setTimeout(() => {
 
 			this.ignoreNewEvent = false;
 
-		}, 500);
+		}, 250);
 
 	}
 
@@ -79,21 +78,20 @@ export class AppComponent implements AfterViewInit {
 
 		let te = e.changedTouches[0].clientY;
 
-		let actualSectionId = Math.floor(window.pageYOffset / window.innerHeight) + 1;
+		let actualSectionId = Math.floor(window.pageYOffset / window.innerHeight);
+		let diff = window.pageYOffset - (window.innerHeight * actualSectionId);
 
-		let element = document.getElementById(String(actualSectionId + (this.ts > te ? 1 : -1)));
-
-		if (element) {
-
-			element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-
-		}
+		window.scroll({
+			top: (window.pageYOffset + (window.innerHeight * (this.ts > te ? 1 : -1))) - diff,
+			left: 0,
+			behavior: 'smooth'
+		});
 
 		setTimeout(() => {
 
 			this.ignoreNewEvent = false;
 
-		}, 1000);
+		}, 100);
 
 	}
 
