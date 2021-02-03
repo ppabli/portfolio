@@ -1,12 +1,12 @@
-<div [attr.id]="id" class="section toggleTheme bg-white">
+<div [attr.id]="id" class="section toggleTheme">
 
-	<div class="container-fluid h-15">
+	<div class="container-fluid h-10">
 
 		<app-scroll [way]="'up'" [id]="id" *ngIf="id != 1"></app-scroll>
 
 	</div>
 
-	<div class="container-fluid h-70">
+	<div class="container-fluid h-80">
 
 		<app-home class="w-100" *ngIf="id == 1"></app-home>
 
@@ -26,7 +26,7 @@
 
 	</div>
 
-	<div class="container-fluid h-15">
+	<div class="container-fluid h-10">
 
 		<app-scroll [way]="'down'" [id]="id" *ngIf="id != 8"></app-scroll>
 

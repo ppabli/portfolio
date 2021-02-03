@@ -14,6 +14,16 @@ export class SectionComponent {
 
 		SectionComponent.classCounter++;
 
+		let vh = window.innerHeight * 0.01;
+		document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+		window.addEventListener('resize', () => {
+
+			let newVH = window.innerHeight * 0.01;
+			document.documentElement.style.setProperty('--vh', `${newVH}px`);
+
+		});
+
 	}
 
 }
