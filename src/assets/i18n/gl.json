@@ -1,0 +1,51 @@
+{
+	"about": {
+		"title": "Sobre min",
+		"p1": "Son un desenvolvedor Full-Stack de Galicia (España)",
+		"p2": "Teño unha gran pasión polos datos, aprender e meyorar; crear un software excelente que meyore a vida dos que me rodean",
+		"p3": "Apaixonado de Angular, TS and C++"
+	},
+	"social": {
+		"title": "Social"
+	},
+	"contact": {
+		"title": "Formulario de contacto",
+		"name": "Nome",
+		"email": "Email",
+		"subject": "Asunto",
+		"message": "Contido",
+		"submit": "Enviar mensaxe"
+	},
+	"languages": {
+		"title": "Linguaxes"
+	},
+	"tecnologies": {
+		"title": "Tecnoloxías"
+	},
+	"projects": {
+		"title": "Proxectos"
+	},
+	"other": {
+		"locale": {
+			"moreLocales": "Outros linguas dispoñibles: "
+		},
+		"theme": {
+			"changeTheme": "Podes cambiar a apariencia!",
+			"themes": {
+				"dark": "Negro",
+				"white": "Blanco",
+				"blue": "Azul"
+			}
+		}
+	},
+	"scrollTexts": {
+		"1": "Desprazarse a Inicio",
+		"2": "Desprazarse a Sobre min",
+		"3": "Desprazarse a Linguas",
+		"4": "Desprazarse a Tecnoloxías",
+		"5": "Desprazarse a Proxectos",
+		"6": "Desprazarse a Social",
+		"7": "Desprazarse a Contacto",
+		"8": "Desprazarse a Outros"
+	}
+}

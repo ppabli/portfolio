@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-center align-items-center h-100 position-relative" [ngClass]="way">
+
+	<div class="arrow toggleTheme" [ngClass]="way"></div>
+	<div class="arrow toggleTheme" [ngClass]="way"></div>
+	<div class="arrow toggleTheme" [ngClass]="way"></div>
+
+	<ng-container *ngIf="way == 'up'; then up; else down"></ng-container>
+
+	<ng-template #up>
+
+		<a class="test message text-decoration-none mt-5 toggleTheme" (click)='scroll($event)' [attr.href]="'#' + (id - 1)">{{ 'scrollTexts.' + (id - 1) | translate}}</a>
+
+	</ng-template>
+
+	<ng-template #down>
+
+		<a class="test message text-decoration-none mb-5 toggleTheme" (click)='scroll($event)' [attr.href]="'#' + (id + 1)">{{ 'scrollTexts.' + (id + 1) | translate}}</a>
+
+	</ng-template>
+
+</div>

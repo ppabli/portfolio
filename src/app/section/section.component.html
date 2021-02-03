@@ -1,0 +1,35 @@
+<div [attr.id]="id" class="section toggleTheme bg-white">
+
+	<div class="container-fluid h-10">
+
+		<app-scroll [way]="'up'" [id]="id" *ngIf="id != 1"></app-scroll>
+
+	</div>
+
+	<div class="container-fluid h-80">
+
+		<app-home class="w-100" *ngIf="id == 1"></app-home>
+
+		<app-about class="w-100" *ngIf="id == 2"></app-about>
+
+		<app-languages class="w-100" *ngIf="id == 3"></app-languages>
+
+		<app-tecnologies class="w-100" *ngIf="id == 4"></app-tecnologies>
+
+		<app-projects class="w-100" *ngIf="id == 5"></app-projects>
+
+		<app-social class="w-100" *ngIf="id == 6"></app-social>
+
+		<app-contact class="w-100" *ngIf="id == 7"></app-contact>
+
+		<app-other class="w-100" *ngIf="id == 8"></app-other>
+
+	</div>
+
+	<div class="container-fluid h-10">
+
+		<app-scroll [way]="'down'" [id]="id" *ngIf="id != 8"></app-scroll>
+
+	</div>
+
+</div>

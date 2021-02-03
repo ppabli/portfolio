@@ -1,0 +1,35 @@
+<div class='d-flex justify-content-center align-items-center h-100 position-relative text-center'>
+
+	<div class='col-6'>
+
+		<div class='row text-center justify-content-center align-items-center'>
+
+			<p class='toggleTheme'>{{ ('other.theme.changeTheme' | translate) }}</p>
+
+		</div>
+
+		<div class='row text-center justify-content-center align-items-center'>
+
+			<button class='toggleTheme btn rounded-0 m-2 text-decoration-none shadow-none' (click)='toggleTheme(themeName)' *ngFor='let themeName of themes'>{{ ('other.theme.themes.' + themeName) | translate }}</button>
+
+		</div>
+
+	</div>
+
+	<div class='col-6'>
+
+		<div class='row text-center justify-content-center align-items-center'>
+
+			<p class='toggleTheme'>{{ ('other.locale.moreLocales' | translate) }}</p>
+
+		</div>
+
+		<div class='row text-center justify-content-center align-items-center'>
+
+			<button class='toggleTheme btn rounded-0 m-2 text-decoration-none shadow-none' (click)='changeLocale(localeName)' *ngFor='let localeName of locales'>{{ localeName }}</button>
+
+		</div>
+
+	</div>
+
+</div>

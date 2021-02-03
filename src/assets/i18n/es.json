@@ -1,0 +1,51 @@
+{
+	"about": {
+		"title": "Sobre mi",
+		"p1": "Soy un desarrollador Full-Stack de Galicia (España)",
+		"p2": "Tengo una gran pasión por los datos, aprender y mejorar; crear un software excelente que mejore la vida de quienes me rodean",
+		"p3": "Enamorado de Angular, TS and C++"
+	},
+	"social": {
+		"title": "Social"
+	},
+	"contact": {
+		"title": "Formulario de contacto",
+		"name": "Nombre",
+		"email": "Email",
+		"subject": "Asunto",
+		"message": "Contenido",
+		"submit": "Enviar mensaje"
+	},
+	"languages": {
+		"title": "Lenguajes"
+	},
+	"tecnologies": {
+		"title": "Tecnologías"
+	},
+	"projects": {
+		"title": "Proyectos"
+	},
+	"other": {
+		"locale": {
+			"moreLocales": "Otros idiomas disponibles:"
+		},
+		"theme": {
+			"changeTheme": "Puedes cambiar la apariencia!",
+			"themes": {
+				"dark": "Negro",
+				"white": "Blanco",
+				"blue": "Azul"
+			}
+		}
+	},
+	"scrollTexts": {
+		"1": "Moverse a Inicio",
+		"2": "Moverse a Sobre mi",
+		"3": "Moverse a Lenguajes",
+		"4": "Moverse a Tecnologías",
+		"5": "Moverse a Proyectos",
+		"6": "Moverse a Social",
+		"7": "Moverse a Contacto",
+		"8": "Moverse a Otros"
+	}
+}
