@@ -10,7 +10,7 @@
 
 		<div class='row text-center justify-content-center align-items-center'>
 
-			<button class='toggleTheme btn rounded-0 m-2 text-decoration-none shadow-none' (click)='toggleTheme(themeName)' *ngFor='let themeName of themes'>{{ ('other.theme.themes.' + themeName) | translate }}</button>
+			<button class='toggleTheme btn rounded-0 m-2 text-decoration-none shadow-none col-8 col-md-4 col-xl-2' (click)='toggleTheme(themeName)' *ngFor='let themeName of themes'>{{ ('other.theme.themes.' + themeName) | translate }}</button>
 
 		</div>
 

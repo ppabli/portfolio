@@ -17,10 +17,12 @@
 		"submit": "Enviar mensaje"
 	},
 	"languages": {
-		"title": "Lenguajes"
+		"title": "Lenguajes",
+		"more": "Y más!"
 	},
 	"tecnologies": {
-		"title": "Tecnologías"
+		"title": "Tecnologías",
+		"more": "Y más!"
 	},
 	"projects": {
 		"title": "Proyectos"

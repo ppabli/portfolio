@@ -17,17 +17,19 @@
 		"submit": "Enviar mensaxe"
 	},
 	"languages": {
-		"title": "Linguaxes"
+		"title": "Linguaxes",
+		"more": "E mais!"
 	},
 	"tecnologies": {
-		"title": "Tecnoloxías"
+		"title": "Tecnoloxías",
+		"more": "E mais!"
 	},
 	"projects": {
 		"title": "Proxectos"
 	},
 	"other": {
 		"locale": {
-			"moreLocales": "Outros linguas dispoñibles: "
+			"moreLocales": "Outras linguas dispoñibles: "
 		},
 		"theme": {
 			"changeTheme": "Podes cambiar a apariencia!",

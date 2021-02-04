@@ -13,14 +13,16 @@
 		"name": "Name",
 		"email": "Email",
 		"subject": "Subject",
-		"message": "Message",
+		"message": "Content",
 		"submit": "Send message"
 	},
 	"languages": {
-		"title": "Languages"
+		"title": "Languages",
+		"more": "And more!"
 	},
 	"tecnologies": {
-		"title": "Tecnologies"
+		"title": "Tecnologies",
+		"more": "And more!"
 	},
 	"projects": {
 		"title": "Projects"
