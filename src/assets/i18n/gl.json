@@ -14,7 +14,8 @@
 		"email": "Email",
 		"subject": "Asunto",
 		"message": "Contido",
-		"submit": "Enviar mensaxe"
+		"submit": "Enviar mensaxe",
+		"success": "Mensaxe enviada correctamente"
 	},
 	"languages": {
 		"title": "Linguaxes",

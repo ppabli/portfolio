@@ -23,7 +23,6 @@ export class LocaleService {
 
 	}
 
-
 	getPreferedLocale() {
 
 		for (let locale of navigator.languages) {

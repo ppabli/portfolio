@@ -13,7 +13,6 @@ import { BackgroundComponent } from './background/background.component';
 import { ContactService } from './contact.service';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { IconsModule } from './icons/icons.module';
 import { LanguagesComponent } from './languages/languages.component';
 import { LocaleService } from './locale.service';
 import { OtherComponent } from './other/other.component';
@@ -23,6 +22,8 @@ import { SectionComponent } from './section/section.component';
 import { SocialComponent } from './social/social.component';
 import { TecnologiesComponent } from './tecnologies/tecnologies.component';
 import { ThemeService } from './theme.service';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export function createTranslateLoader(http: HttpClient) {
 
@@ -46,7 +47,8 @@ export function createTranslateLoader(http: HttpClient) {
 		ProjectsComponent
 	],
 	imports: [
-		IconsModule,
+		BrowserAnimationsModule,
+		ToastrModule.forRoot(),
 		BrowserModule,
 		AppRoutingModule,
 		ReactiveFormsModule,

@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { LocaleService } from './locale.service';
 import { ThemeService } from './theme.service';
-
+import * as feather from 'feather-icons';
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
@@ -26,6 +26,7 @@ export class AppComponent implements AfterViewInit {
 	ngAfterViewInit() {
 
 		this.themeService.initTheme();
+		feather.replace();
 
 	}
 
