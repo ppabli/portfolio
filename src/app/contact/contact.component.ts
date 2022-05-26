@@ -32,7 +32,7 @@ export class ContactComponent implements OnInit {
 		if (this.FormGroup.valid) {
 
 			this.contact.postMessage(FormData).subscribe();
-			this.toastr.success(this.translate.instant('contact.success'), 'Success');
+			this.toastr.success(this.translate.instant('contact.success'), '');
 			this.FormGroup.reset();
 
 		}
